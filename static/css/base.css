@@ -1,0 +1,153 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,input,textarea,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,i,em{margin:0;padding:0;font-style:normal;}
+ul,ol{list-style:none;}
+caption,th{text-align:left;}
+table{border-collapse:collapse;border-spacing:0;}
+body{font-family:'微软雅黑',tahoma, arial,verdana,sans-serif;font-size:14px;color:#1b1e27;-webkit-font-smoothing: subpixel-antialiased;background:#fff;}
+img{-ms-interpolation-mode:bicubic; border-width:0;}
+input[type="text"],input[type="password"],textarea{outline-style:none;-webkit-appearance:none;border:0;}
+textarea{resize:none}
+a{color:#1b1e27;text-decoration:none;outline:0;line-height:20px;font-size:14px;}
+a:hover,a:active{color:#1b1e27;text-decoration:none;}
+a:focus,input,textarea{outline-style:none;outline:0}
+
+.clearfix{*zoom:1;}
+.clearfix:after{content:'\0020';display:block;height:0;font-size:0;visibility:hidden;clear:both;}
+.clearit{clear:both;font-size:0;line-height:0!important;height:0!important;}
+.fL{float:left;}
+.fR{float:right;}
+.relative{position:relative;}
+.show{display:block!important;}
+.hide{display:none!important;}
+.off-hiden{overflow:hidden;}
+.w{width:100%;}
+.w1180{width:1180px;margin:0 auto;}
+.border-none{border:0!important;}
+.color-red{color:#ff5064!important;}
+.bg-main{background:#eff2f4;}
+.mt20{margin-top:-20px!important;}
+.f18{font-size:18px!important;}
+.f12{font-size:12px!important;}
+.color626672{color:#626672!important; }
+.bgnone{background:none!important;}
+.pdnone{padding:0!important }
+.w360{width:360px!important;}
+.mgb{margin-bottom:0!important}
+.pdb{padding-bottom:0px!important;}
+.mgr40{margin-right:40px;}
+.pdb40{padding-bottom:40px!important;}
+/*导航*/
+.nav{height:105px;}
+.nav .logo{width:382px;height:56px;margin-top:25px;background:url(../images/logo.png) no-repeat;}
+.nav .logo a{display:block;text-indent:-999em;height:100%;}
+.nav .items{text-align:right;margin-left: }
+.nav .items a{line-height:105px;font-size:14px;color:#2c3140;}
+.nav .items a:hover{color:#ff5064;}
+.nav .items a.now{color:#ff5064;}
+.nav .nav-item{margin-right:70px;} 
+.nav .nav-item a{margin-left:60px;}
+.nav .tools-item{display:inline-block;}
+.nav .tools-item .face{}
+.nav .tools-item .face img{border-radius:50%;vertical-align:middle;}
+.nav .tools-item .name{margin:0 10px;color:#626672;}
+.nav .tools-item .name:hover{color:#626672;}
+.nav .tools-item em{font-size:16px;font-weight:bold;}
+.nav .tools-item a{margin-left:30px;}
+.nav .set-user{cursor:pointer;position:relative;}
+.set-user-float{width:170px;border:1px solid #e0e0e0;padding:5px 0;position:absolute;top:70px;z-index:999;background:#fff;display:none;}
+.set-user-float li{height:30px;}
+.set-user-float li a{line-height:30px;display:block;width:140px;height:100%;color:#1b1e27;padding:0 15px;}
+.set-user-float li a:hover{background:#eff2f4;}
+.transitionAll{transition: all .3s ease;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;-webkit-backface-visibility: hidden;}  	
+.city-icon,.data-icon,.close-icon,.logo-icon,.qq-icon,.weibo-icon,.weixin-icon,.remember-icon,.choice-city-icon,.choice-date-icon,.dinner-icon,.wifi-icon,.print-icon,.bed-icon,.bathtub-icon,.towels-icon,.wash-icon,.temp-icon,.child-icon,.community-icon,.take-car-icon,.i-date-icon,.put-car-icon,.input-local-icon,.i-time-icon,.i-plane-icon,.close-float,.succes-icon,.hotel-icon,.car-icon,.pic-icon{background-image:url(../images/icon.png);background-repeat:no-repeat;display:inline-block;background-repeat:no-repeat;}
+.city-icon{width:19px;height:24px;background-position:0 0;}
+.data-icon{width:21px;height:24px;background-position:-19px 0;}
+.close-icon{width:20px;height:20px;background-position:-40px 0;}
+.logo-icon{width:69px;height:56px;background-position:-60px 0;}
+.qq-icon{width:33px;height:33px;background-position:0 -25px;}
+.weibo-icon{width:33px;height:33px;background-position:0 -58px;}
+.weixin-icon{width:33px;height:33px;background-position:0 -91px;}
+.remember-icon{width:21px;height:20px;background-position:-34px -25px;}
+.choice-city-icon{width:19px;height:20px;background-position:-35px -45px;}
+.choice-date-icon{width:21px;height:23px;background-position:-35px -65px;}
+.dinner-icon,.wifi-icon,.print-icon,.bed-icon,.bathtub-icon,.towels-icon,.wash-icon,.temp-icon,.child-icon,.community-icon{width:22px;height:25px;background-position:right 0px;}
+.wifi-icon{background-position:right -25px;}
+.print-icon{background-position:right -50px;}
+.bed-icon{background-position:right -75px;}
+.bathtub-icon{background-position:right -100px;}
+.towels-icon{background-position:right -125px;}
+.wash-icon{background-position:right -150px;}
+.temp-icon{background-position:right -175px;}
+.child-icon{background-position:right -200px;}
+.community-icon{background-position:right -225px;}
+.take-car-icon,.i-date-icon,.put-car-icon,.input-local-icon,.i-time-icon{width:22px;height:24px;background-position:-256px 0px;}
+.take-car-icon{background-position:-256px -24px; }
+.put-car-icon{background-position:-256px -48px;}
+.input-local-icon{background-position:-256px -72px;}
+.i-time-icon{background-position:-256px -96px;}
+.i-plane-icon{width:25px;height:24px;background-position:-231px 0px;}
+.close-float{width:21px;height:21px;background-position:-197px 0;}
+.succes-icon{width:45px;height:46px;background-position:-197px -24px;}
+.hotel-icon{width:18px;height:15px;background-position:-197px -71px;}
+.car-icon{width:218px;height:15px;background-position:-218px -71px;}
+.mask{width:100%;height:100%;position:fixed;left:0;top:0;z-index:900;filter:alpha(opacity=95);opacity:0.95;background:#000;display:none;}
+.float-box{position:fixed;display:none;z-index:9999;}
+.tab-con,.tab-cont{display:none;}
+.ad{margin:0 auto;text-align:center;font-size:0;line-height:0;margin-bottom:20px;}
+.ad a{font-size:0;line-height:0;}
+/*分页*/
+.page-box {width:100%;height:80px;text-align:center;padding:30px 0;}  
+.page {position:relative;left:50%;float:left;}  
+.page span{position:relative;left:-50%;display: inline;float:left;padding:0 10px;height:30px;line-height:30px;margin:2px;font-weight:bold;}  
+.page span.totlerecord{}  
+.page span.current{cursor:pointer;background:#ff5064;color:#fff;}  
+.page a:link,.page a:visited {display:inline;float:left;padding:0 10px;height:30px;line-height:30px;margin:2px;text-decoration:none;position:relative;left:-50%;color:#1b1e27;font-weight:bold;}  
+.page a:hover {background:#ff5064;color:#fff;}  
+.page .pre-btn,.page .next-btn{color:#90949f;font-size:24px;}
+.page .pre-btn:hover,.page .next-btn:hover{background:transparent;color:#ff5064;}
+
+.footer{height:347px;background:#1b1e27;}
+.footer .bd{height:302px;background:#1b1e27;}
+.footer .bd .logo-ft{width:195px;height:56px;background:url(../images/logo-ft.png) no-repeat;float:left;margin-top:45px;}
+.footer .bd dl{width:180px;float:left;border-top:1px solid #626672;margin:60px 0 0 55px;}
+.footer .bd dt {margin:15px 0 20px;}
+.footer .bd dt,.footer .bd dd{line-height:24px;color:#747886;font-size:14px;}
+.footer .bd dl a{line-height:24px;color:#747886;}
+.footer .bd .us-code{font-size:0;line-height:0;padding-top:10px;}
+.footer .bd .bank{font-size:0;line-height:0;padding-top:20px;}
+.footer .bd .bank a{margin-right:20px;}
+.footer .ft{height:45px;background:#000;}
+.footer .ft span{line-height:45px;color:#747886;font-size:12px;}
+.footer .ft span a{line-height:45px;font-size:12px;color:#747886;}
+/*登录浮层*/
+.login-dialog{width:580px;height:380px;background:#fff;}
+.login-dialog .fl-con{width:220px;height:380px;background:#ff5064;position:relative;float:left;}
+.login-dialog .fr-con{width:320px;height:340px;position:relative;padding:20px;float:right;}
+.login-dialog .close-icon{display:block;position:absolute;left:15px;top:15px;}
+.login-dialog .logo-icon{display:block;position:absolute;left:80px;top:60px;}
+.login-dialog .other-way{width:220px;height:100px;position:absolute;left:0;bottom:0;text-align:center;color:#ff939f;}
+.login-dialog .other-way .go-btn{margin:0 10px 10px;}
+.login-dialog .other-way span{color:#fff;}
+.login-dialog .fr-con .hd{height:30px;margin:10px 0;}
+.login-dialog .fr-con .hd li{color:#6d717f;font-size:18px;cursor:pointer;float:left;line-height:30px;margin-right:20px;}
+.login-dialog .fr-con .hd .curt{color:#ef4c60;}
+.login-dialog .fr-con .bd{padding-top:15px;}
+.login-dialog .fr-con .login-box,.login-dialog .fr-con .reg-box{display:none;}
+.login-dialog .fr-con .bd input{width:300px;height:42px;border:1px solid #f0f3f5;padding:0 10px;color:#6d717f;vertical-align:top;}
+.login-dialog .fr-con .bd p{color:#6d717f;text-align:center;height:44px;margin-bottom:20px;}
+.login-dialog .fr-con .bd .reg-btn,.login-dialog .fr-con .bd .login-btn{color:#fff;background:#ff5064;font-size:18px;border-color:#ff5064;width:320px;cursor:pointer;}
+.login-dialog .fr-con .bd .id-code{width:175px;margin-right:20px}
+.login-dialog .id-img{border:1px solid #f0f3f5;}
+.login-dialog a.fL,.login-dialog a.fR{color:#6d717f;line-height:14px;}
+.login-dialog a .remember-icon{vertical-align:middle;margin-right:5px;margin-top:-3px;}
+.login-dialog .tip{width:160px;height:40px;text-align:center;font-size:36px;color:#fff;position:absolute;left:-190px;top:140px;}
+/*城市或者目的浮层*/
+.citys-dialog{width:378px;border:1px solid #cac5c5;box-shadow: 0px 2px 2px #cac5c5;position:absolute;top:0;left:0;background:#fff;display:none;z-index:999;}
+.citys-dialog .city-items{padding:10px 20px;}
+.citys-dialog .city-items a{line-height:30px;color:#000;}
+.citys-dialog .city-items a:hover{color:#ff5064;}
+.citys-dialog .citys-tit{color:#fff;height:24px; line-height:24px;padding:8px 0 8px 4px; background-color:#F05B72;}
+.citys-dialog .citys-tit span{float:left;cursor:pointer;padding:0 5px;margin:0 6px; text-align:center;}
+.citys-dialog .citys-tit .current,.citys-dialog .citys-tit span:hover{background-color:#E33555;border-radius:5px;}
+.citys-dialog .city-box{padding:10px 0；}
+.citys-dialog .city-con span{width:75px;float:left;height:36px;line-height:36px;text-align:center;color:#000;cursor:pointer;}
+.citys-dialog .city-con span:hover{color:#ff5064;}

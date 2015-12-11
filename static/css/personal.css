@@ -1,0 +1,71 @@
+.tit-h1{font-size:18px;font-weight:bold;color:#626672;line-height:40px;padding-top:30px;height:50px;}
+.person-center{background:#e1e4e6;}
+.person-center .aside{width:180px;height:610px;float:left;background:#e1e4e6;}
+.person-center .aside .face{width:90px;height:90px;margin:30px auto 5px;border-radius:50%;font-size:0;line-height:0;}
+.person-center .aside .face a{font-size:0;line-height:0;}
+.person-center .aside h4{text-align:center;height:30px;}
+.person-center .aside h4 a{line-height:30px;color:#626672;font-weight:bold;}
+.person-center .con{float:right;width:980px;background:#fff;min-height:610px;padding-left:20px;}
+.person-center .aside .items{padding-top:20px;}
+.person-center .aside .items li{height:45px;color:#626672;text-align:center;}
+.person-center .aside .items li a{display:block;width:100%;height:100%;line-height:45px;}
+.person-center .aside .items li a:hover,.person-center .aside .items li .curt{background:#fff;}
+.person-center .con .bd{margin:0 40px 0 20px;}
+.person-center .con h2{height:70px;border-bottom:1px solid #e9ebec;line-height:70px;font-size:18px;color:#626672;font-weight:bold;}
+.person-center .con h2 .create-btn{width:140px;height:40px;line-height:40px;color:#fff;background:#ff5064;font-size:18px;font-weight:bold;text-align: center;display:inline-block;margin-top:15px;*margin-top:-55px;}
+.person-center .con .house-items{}
+.person-center .con .house-items li{height:145px;border-bottom:1px solid #e9ebec;}
+.person-center .con .house-items .pic{width:160px;height:110px;margin:17px 0;float:left;overflow:hidden;}
+.person-center .con .house-items .txt{float:right;width:740px;}
+.person-center .con .house-items .txt div{color:#6d717f;line-height:24px;*height:40px;}
+.person-center .con .house-items .txt h3{font-size:18px;color:#1b1e27;font-weight:normal;margin-top:20px;}
+.person-center .con .house-items .txt h3 span{font-weight:bold;color:#ff5064;*margin-top:-24px;}
+.person-center .con .house-items .txt h3 em{font-size:14px;}
+.person-center .con .house-items .txt .tools{margin-top:30px;}
+.person-center .con .house-items .txt .tools a{color:#ff5064;}
+.person-center .con .house-items .txt .tools .del{color:#6d717f;margin-left:20px;}
+.person-center .con .order-items{color:#1b1e27;line-height:75px;}
+.person-center .con .order-items .items{margin-top:20px;height:120px;background:#ffedef;}
+.person-center .con .order-items h5{height:45px;background:#ff5064;font-size:18px;color:#fff;padding:0 30px 0 20px;line-height:45px;}
+.person-center .con .order-items .txt{height:75px;line-height:75px;}
+.person-center .con .order-items .icon{display:block;height:15px;float:left;}
+.person-center .con .order-items .hotel-icon{width:18px;margin:31px 18px 0 24px;}
+.person-center .con .order-items .car-icon{width:23px;margin:31px 15px 0 22px;}
+.person-center .con .order-items .name{width:220px;float:left;overflow:hidden;}
+.person-center .con .order-items .start{line-height:24px;padding-top:15px;}
+.person-center .con .order-items .way{width:90px;float:left;overflow:hidden;padding-left:10px;}
+.person-center .con .order-items .date{width:290px;float:left;overflow:hidden;padding-left:10px;}
+.person-center .con .order-items .num{width:80px;float:left;overflow:hidden;text-align:right;}
+.person-center .con .order-items .yuan{width:115px;float:right;overflow:hidden;padding-right:30px;text-align:right;color:#ff5064;}
+.person-center .con .order-items .yuan em{font-size:12px;}
+.person-center .con .no-order{width:200px;padding-top:200px;text-align:center;margin:120px auto 0;background:url(../images/jn29.png) no-repeat;color:#cccece;font-weight:bold;height:40px;line-height:40px;}
+.person-center .con .set-box{padding:20px 0;width:412px;}
+.person-center .con .set-box p,.person-center .con .select-tools{line-height:42px;margin-bottom:20px;}
+.person-center .con .set-box .tit{color:#626672;font-weight:bold;margin-right:35px;display:inline-block;width:80px;}
+.person-center .con .set-box .txt{color:#aeb1b9;}
+.person-center .con .set-box .data-input{width:275px;height:40px;border:1px solid #e5e8e9;padding:0 10px;color:#aeb1b9;*line-height:40px;}
+.person-center .con .btn{height:40px;color:#fff;font-weight:bold;font-size:18px;padding:0 50px;border:0;background:#ff5064;cursor:pointer;*padding:0 20px;}
+.person-center .con .set-box .tools{margin-top:40px;text-align:right;}
+.person-center .con .set-box .cancel-btn{background:#aeb1b9;margin-right:10px;}
+.person-center .con .update-info{width:422px;}
+.person-center .con .select-tools .tit{float:left;}
+.person-center .con .select-label{border:1px solid #e6e8e9;height:40px;width:90px;position:relative;cursor:pointer;text-align:center; color:#aeb1b9;float:left;margin-right:10px;background:#fff;}
+.person-center .con .select-label em{margin-left:10px;}
+.person-center .con .select-box{border:1px solid #e6e8e9;width:90px;display:inline-block;border-top:0;position:absolute;left:-1px;top:40px;display:none;max-height:200px;overflow-y:auto;background:#fff;z-index:9 }
+.person-center .con .select-box li{height:40px;line-height:40px;color:#aeb1b9;text-align:center;cursor:pointer;}
+.person-center .con .select-box li:hover{background:#ff5064;color:#fff;}
+.person-center .con .change-face{padding-top:20px;width:930px;}
+.person-center .con .change-face .fl-con{float:left;width:520px;border-right:2px solid #eceeef;}
+.person-center .con .change-face .fr-con{float:right;width:380px;}
+.person-center .con .change-face .head-face{width:226px;height:226px;margin:55px auto;border-radius:50%;}
+.person-center .con .change-face h4{color:#626672;font-weight:bold;line-height:24px;}
+.person-center .con .change-face p{color:#aeb1b9;line-height:24px;}
+.person-center .con .change-face .input-file{width:460px;height:300px;background:#eff2f4;position:relative;text-align:center;padding-top:1px;overflow:hidden;margin-bottom:20px;}
+.person-center .con .change-face .file{width:100%;height:100%;position:absolute;left:0;top:0;filter:alpha(opacity=0);opacity:0;z-index:9;cursor:pointer;}
+.person-center .con .change-face .pic-icon{width:63px;height:61px;background-position:0 -140px;margin:65px auto 5px;display:block;}
+.person-center .con .change-face .tip{}
+.person-center .con .change-face .tip p{color:#aeb1b9;font-size:22px;margin:0;}
+.person-center .con .change-face .tip em{font-size:12px;}
+.person-center .con .change-face .tip b{padding:3px 20px;background:#fff;font-weight:normal;color:#626672;font-size:12px;margin-top:5px;}
+.person-center .con .set-face{color:#aeb1b9;background:#eff2f4;}
+.person-center .con .set-done{color:#fff;background:#ff5064;}
