@@ -1,5 +1,6 @@
 define(function(require,exports,module){
-var $ = jquery = require('./jquery-1.11.3');
+
+var $ = jQuery = require('jquery');
 /*------------------------------------------------------------------
 initialize!!
 ------------------------------------------------------------------*/

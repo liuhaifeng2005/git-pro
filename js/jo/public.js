@@ -1,5 +1,5 @@
 define(function(require,exports,module){
-var $ = jquery = require('./jquery-1.11.3');
+var $ = jQuery = require('jquery');
 var jo = window.jo || {};
 // 延迟加载列表数组
 jo.lazyDataArray = [];

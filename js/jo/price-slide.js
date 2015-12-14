@@ -1,5 +1,5 @@
 define(function(require,exports,module){
-var $ = jquery = require('./jquery-1.11.3');
+var $ = jQuery = require('jquery');
 require('./jquery-ui.min')($);
 var priceSlide = window.priceSlide || {};
 $(function(){//短租公寓价格滑动模块

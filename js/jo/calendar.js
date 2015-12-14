@@ -1,7 +1,7 @@
 define(function(require,exports,module){
 return function(jquery){
 
-var $ = jquery = require('./jquery-1.11.3');
+var $ = jQuery = require('jquery');
 
 $(document).ready(function(){
 

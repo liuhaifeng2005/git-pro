@@ -251,24 +251,16 @@
 </ul>
 </div>	
 	
-<script src="../src/sea.js" id="seajsnode"></script>
+<script src="../js/lib/sea/sea/2.3.0/sea.js" id="seajsnode"></script>
 <script>
-  seajs.config({
-    base: "./"
-  });
-  /*seajs.use(["index"],function($){
-      console.log("成功！")
-  });*/
-seajs.use("../src/index");
-</script>
+seajs.config({
+  base: "../js/lib/",
+  alias: {
+    "jquery": "jquery/jquery/1.11.3/jquery.js"
+  }
+});
+seajs.use("../js/jo/index.js");
 
-<!-- js 上线调用压缩后的版本 -->
-<!-- <script src="spm_modules/seajs/2.3.0/dist/sea.js" id="seajsnode"></script>
-<script>
-  seajs.config({
-    base: "./"
-  });
-seajs.use("dist/jo/0.0.0/index");
-</script> -->
+</script>
 </body>
 </html> 
