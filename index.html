@@ -345,8 +345,10 @@ seajs.config({
     "jquery": "jquery/jquery/1.11.3/jquery.js"
   }
 });
-seajs.use("./js/jo/src/index.js");
 
+seajs.use(["./js/jo/src/index.js"],function($){
+      console.log("成功！")
+  });
 </script>
 </body>
 </html> 
